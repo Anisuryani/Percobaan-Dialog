@@ -1,4 +1,5 @@
 import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
 /*
 
@@ -236,6 +237,10 @@ public class PercobaanDialog extends javax.swing.JFrame {
         String Pilihan = (String) JOptionPane.showInputDialog(null, "Pilih buah kesukaan anda?", 
                 "Title Pilih Buah", optionType, null, Option, "Apple");
         txtInput.setText(Pilihan);
+        
+
+
+        
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void rbErrorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbErrorActionPerformed
